@@ -1,0 +1,19 @@
+{
+  "name": "prashant-flood-survive",
+  "version": "1.0.0",
+  "description": "Flood and disaster safety awareness training simulation by Prashant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "draco",
+    "game",
+    "prashant"
+  ],
+  "author": "",
+  "license": "ISC"
+}

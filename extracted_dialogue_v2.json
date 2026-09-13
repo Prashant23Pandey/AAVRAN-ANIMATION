@@ -1,0 +1,3448 @@
+{
+  "DIALOGUE_SENTENCE": [
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 34227,
+      "text": "\"Invalid component type.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 34617,
+      "text": "\"Invalid component type.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 56355,
+      "text": "\"THREE.ColorManagement: .fromWorkingColorSpace() has been renamed to .workingToColorSpace().\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 56528,
+      "text": "\"THREE.ColorManagement: .toWorkingColorSpace() has been renamed to .colorSpaceToWorking().\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 58603,
+      "text": "\"THREE.ImageUtils.sRGBToLinear(): Unsupported image type. No color space conversion applied.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 59907,
+      "text": "\"THREE.Texture: Unable to serialize Texture.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 101690,
+      "text": "\"THREE.Object3D.add: object can't be added as a child of itself.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 101974,
+      "text": "\"THREE.Object3D.add: object not an instance of THREE.Object3D.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 134691,
+      "text": "\"THREE.BufferAttribute: array should be a Typed Array.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 141428,
+      "text": "\"THREE.BufferGeometry: Buffer size too small for points data. Use .dispose() and create a new geometry.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 141745,
+      "text": "\"THREE.BufferGeometry.computeBoundingBox(): GLBufferAttribute requires a manual bounding box.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 142854,
+      "text": "\"THREE.BufferGeometry.computeBoundingSphere(): GLBufferAttribute requires a manual bounding sphere.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 147358,
+      "text": "\"THREE.BufferGeometry.toNonIndexed(): BufferGeometry is already non-indexed.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 156194,
+      "text": "\"UniformsUtils: Textures of render targets cannot be cloned via cloneUniforms() or mergeUniforms().\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 175800,
+      "text": "\"THREE.InterleavedBufferAttribute.clone(): Cloning an interleaved buffer attribute will de-interleave buffer data.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 176468,
+      "text": "\"THREE.InterleavedBufferAttribute.toJSON(): Serializing an interleaved buffer attribute will de-interleave buffer data.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 180967,
+      "text": "\"THREE.Skeleton: Number of inverse bone matrices does not match amount of bones.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 196571,
+      "text": "\"THREE.BatchedMesh: All attributes must have a consistent itemSize and normalized value.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 197911,
+      "text": "\"THREE.BatchedMesh: Maximum item count reached.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 199070,
+      "text": "\"THREE.BatchedMesh: Reserved space request exceeds the maximum buffer size.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 199542,
+      "text": "\"THREE.BatchedMesh: Maximum geometry count reached.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 199822,
+      "text": "\"THREE.BatchedMesh: Reserved space not large enough for provided geometry.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 211653,
+      "text": "\"THREE.Line.computeLineDistances(): Computation only possible with non-indexed BufferGeometry.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 214108,
+      "text": "\"THREE.LineSegments.computeLineDistances(): Computation only possible with non-indexed BufferGeometry.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 219093,
+      "text": "\"THREE.Curve: .getPoint() not implemented.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 259194,
+      "text": "\"THREE.KeyframeTrack: Invalid value size in track.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 259324,
+      "text": "\"THREE.KeyframeTrack: Track is empty.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 259469,
+      "text": "\"THREE.KeyframeTrack: Time is not a valid number.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 259573,
+      "text": "\"THREE.KeyframeTrack: Out of order keys.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 259747,
+      "text": "\"THREE.KeyframeTrack: Value is not a valid number.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 264305,
+      "text": "\"THREE.AnimationClip: No animation in JSONLoader data.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 269586,
+      "text": "\"THREE.FileLoader: HTTP Status 0 received.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 283341,
+      "text": "\"THREE.ImageBitmapLoader: createImageBitmap() not supported.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 283435,
+      "text": "\"THREE.ImageBitmapLoader: fetch() not supported.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 288695,
+      "text": "\"THREE.Audio: Audio is already playing.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 288790,
+      "text": "\"THREE.Audio: this Audio has no playback control.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 289298,
+      "text": "\"THREE.Audio: this Audio has no playback control.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 289683,
+      "text": "\"THREE.Audio: this Audio has no playback control.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 291029,
+      "text": "\"THREE.Audio: this Audio has no playback control.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 291378,
+      "text": "\"THREE.Audio: this Audio has no playback control.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 291501,
+      "text": "\"THREE.Audio: this Audio has no playback control.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 291919,
+      "text": "\"THREE.Audio: Audio source type cannot be copied.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 301538,
+      "text": "\"THREE.PropertyBinding: Can not bind to material as node does not have a material.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 301675,
+      "text": "\"THREE.PropertyBinding: Can not bind to material.materials as node.material does not have a materials array.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 301869,
+      "text": "\"THREE.PropertyBinding: Can not bind to bones as node does not have a skeleton.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 302111,
+      "text": "\"THREE.PropertyBinding: Can not bind to material as node does not have a material.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 302242,
+      "text": "\"THREE.PropertyBinding: Can not bind to material.map as node.material does not have a map.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 302410,
+      "text": "\"THREE.PropertyBinding: Can not bind to objectName of node undefined.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 302548,
+      "text": "\"THREE.PropertyBinding: Trying to bind to objectIndex of objectName, but is undefined.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 303089,
+      "text": "\"THREE.PropertyBinding: Can not bind to morphTargetInfluences because node does not have a geometry.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 303250,
+      "text": "\"THREE.PropertyBinding: Can not bind to morphTargetInfluences because node does not have a geometry.morphAttributes.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 328370,
+      "text": "\"WARNING: Multiple instances of Three.js being imported.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 330678,
+      "text": "\"THREE.WebGLAttributes: The size of the buffer attribute's array buffer does not match the original size. Resizing buffer attributes is not supported.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 582469,
+      "text": "\"DepthTexture: 16 bit depth attachment is not supported with stencil. Using 24-bit attachment.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 585450,
+      "text": "\"THREE.WebGLRenderer: Texture marked for update but no image data found.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 587321,
+      "text": "\"THREE.WebGLRenderer: Unable to use linear filtering with floating point textures. OES_texture_float_linear not supported on this device.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 608189,
+      "text": "\"THREE.WebGLTextures: sRGB encoded textures have to use RGBAFormat and UnsignedByteType.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 617843,
+      "text": "\"THREE.WebXRManager: Cannot change framebuffer scale while presenting.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 617994,
+      "text": "\"THREE.WebXRManager: Cannot change reference space type while presenting.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 632317,
+      "text": "\"THREE.WebGLRenderer: Maximum number of simultaneously usable uniforms groups reached.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 634454,
+      "text": "\"THREE.WebGLRenderer: Texture samplers can not be part of an uniforms group.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 634546,
+      "text": "\"THREE.WebGLRenderer: Unsupported uniform value type.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 635293,
+      "text": "\"THREE.WebGLRenderer: WebGL 1 is not supported since r163.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 636789,
+      "text": "\"Error creating WebGL context with your selected attributes.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 636862,
+      "text": "\"Error creating WebGL context.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 638546,
+      "text": "\"THREE.WebGLRenderer: Can't change size while VR device is presenting.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 641161,
+      "text": "\"THREE.WebGLRenderer: Context Lost.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 641230,
+      "text": "\"THREE.WebGLRenderer: Context Restored.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 642931,
+      "text": "\"THREE.WebGLRenderer: renderMultiDrawInstances has been deprecated and will be removed in r184. Append to renderMultiDraw arguments and use indirection.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 645359,
+      "text": "\"THREE.WebGLRenderer.render: camera is not an instance of THREE.Camera.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 659866,
+      "text": "\"WebGLRenderTarget: Attached DepthTexture is initialized to the incorrect size.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 661172,
+      "text": "\"THREE.WebGLRenderer.readRenderTargetPixels: renderTarget is not THREE.WebGLRenderTarget.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 661502,
+      "text": "\"THREE.WebGLRenderer.readRenderTargetPixels: renderTarget is not in RGBA or implementation defined format.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 661664,
+      "text": "\"THREE.WebGLRenderer.readRenderTargetPixels: renderTarget is not in UnsignedByteType or implementation defined type.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 662176,
+      "text": "\"THREE.WebGLRenderer.readRenderTargetPixels: renderTarget is not THREE.WebGLRenderTarget.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 662545,
+      "text": "\"THREE.WebGLRenderer.readRenderTargetPixelsAsync: renderTarget is not in RGBA or implementation defined format.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 662706,
+      "text": "\"THREE.WebGLRenderer.readRenderTargetPixelsAsync: renderTarget is not in UnsignedByteType or implementation defined type.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 663396,
+      "text": "\"THREE.WebGLRenderer.readRenderTargetPixelsAsync: requested read bounds are out of range.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 663923,
+      "text": "\"WebGLRenderer: copyTextureToTexture function signature has changed to support src and dst mipmap levels.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 675868,
+      "text": "\"An idle task took too long to complete, aborting.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 689949,
+      "text": "\"SVGLoader: url access in attributes is not implemented.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 756686,
+      "text": "\"You must specify a MSDF font.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 766411,
+      "text": "\"Missing KTX 2.0 identifier.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 769966,
+      "text": "\"ZSTDDecoder: Await .init() before decoding.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 812596,
+      "text": "\"THREE.KTX2Loader: Multiple active KTX2 loaders may cause performance issues. Use a single KTX2Loader instance, or call .dispose() on old instances.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 812852,
+      "text": "\"THREE.KTX2Loader: Missing initialization with `.detectSupport( renderer )`.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 813194,
+      "text": "\"THREE.KTX2Loader: Missing initialization with `.detectSupport( renderer )`.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 815798,
+      "text": "\"THREE.KTX2Loader: Please update Basis Universal transcoder.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 816783,
+      "text": "\"THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 817187,
+      "text": "\"THREE.KTX2Loader: .transcodeImage failed.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 820009,
+      "text": "\"THREE.KTX2Loader: Failed to identify transcoding target.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 822786,
+      "text": "\"THREE.KTX2Loader: Unsupported supercompressionScheme.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 823655,
+      "text": "\"THREE.KTX2Loader: Unsupported pixelDepth.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 834400,
+      "text": "\"THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.array must be of consistent array types across matching attributes.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 834612,
+      "text": "\"THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.itemSize must be consistent across matching attributes.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 834816,
+      "text": "\"THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.normalized must be consistent across matching attributes.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 835012,
+      "text": "\"THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.gpuType must be consistent across matching attributes.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 835553,
+      "text": "\"THREE.BufferGeometryUtils.toTrianglesDrawMode(): Geometry already defined as triangles.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 835879,
+      "text": "\"THREE.BufferGeometryUtils.toTrianglesDrawMode(): Undefined position attribute. Processing not possible.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 836298,
+      "text": "\"THREE.BufferGeometryUtils.toTrianglesDrawMode(): Unable to generate correct amount of triangles.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 839305,
+      "text": "\"THREE.GLTFLoader: Unsupported asset. glTF versions >=2.0 are supported.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 855749,
+      "text": "\"THREE.GLTFLoader: Unsupported glTF-Binary header.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 855843,
+      "text": "\"THREE.GLTFLoader: Legacy binary file detected.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 856365,
+      "text": "\"THREE.GLTFLoader: JSON content not found.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 856490,
+      "text": "\"THREE.GLTFLoader: No DRACOLoader instance provided.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 861450,
+      "text": "\"THREE.GLTFLoader: Invalid extras.targetNames length. Ignoring names.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 862213,
+      "text": "\"THREE.GLTFLoader: Unsupported normalized accessor component type.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 868950,
+      "text": "\"THREE.GLTFLoader: Unsupported itemSize in sparse BufferAttribute.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 877208,
+      "text": "\"THREE.GLTFLoader: Missing camera parameters.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 883514,
+      "text": "\"THREE.GLTFLoader: Missing min/max properties for accessor POSITION.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 884105,
+      "text": "\"THREE.GLTFLoader: Missing min/max properties for accessor POSITION.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 886750,
+      "text": "\"THREE.Pass: .render() must be implemented in derived pass.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 890575,
+      "text": "\"Adaptive DPR stopped.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 921056,
+      "text": "\"Render method not implemented!\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1122615,
+      "text": "\"Selective Bloom requires scene, objects and depth texture.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1123084,
+      "text": "\"Godrays requires scene camera, light source and depth texture.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1123500,
+      "text": "\"DOF requires scene camera and depth texture.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1127193,
+      "text": "\"MultipleRenderPass requires a scene.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1171786,
+      "text": "\"You must specify a .font file.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1320951,
+      "text": "\"MeshBVH: Cannot store child pointer greater than 32 bits.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1328147,
+      "text": "\"ExtendedTriangle.intersectsTriangle: Triangles are coplanar which does not support an output edge. Setting edge to 0, 0, 0.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1353067,
+      "text": "\"MeshBVH: Recursive calls to bvhcast not supported.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1356458,
+      "text": "\"MeshBVH: InterleavedBufferAttribute is not supported for the index attribute.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1356560,
+      "text": "\"MeshBVH: Only BufferGeometries are supported.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1356745,
+      "text": "\"MeshBVH: SharedArrayBuffer is not available.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1382472,
+      "text": "\"Initial character geometry could not be loaded/created.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1383621,
+      "text": "\"Character geometry data is missing.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1389323,
+      "text": "\"BatchedMesh: Reserved space not large enough for provided geometry.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1557453,
+      "text": "\"Hello, I am a NPC.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1557474,
+      "text": "\"I am talking to you right now.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1570958,
+      "text": "\"Thank god you're here! I sent a letter to my boss earlier, but I need to get it back before he sees it...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1571066,
+      "text": "\"He lives at the red cliff house. Do you think he's read it yet?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1571311,
+      "text": "\"One of my employees wrote this? I can't believe it... this... is...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1571468,
+      "text": "\"Can you take this note back to him? He works in the main square.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1571788,
+      "text": "\"I'm getting... promoted?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1571815,
+      "text": "\"Wow, who would have known that acting on my lowest instincts would help me advance in the corporate world.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1572194,
+      "text": "\"Hey there! Can you please take this postcard to my wife? She sells flowers in the main square.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1572291,
+      "text": "\"I'd give it to her myself but I... uh... have a bad knee at the moment...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1572618,
+      "text": "\"Oh, a postcard from my husband!\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1572652,
+      "text": "\"He's on an overseas business trip at the moment, visiting all kinds of exotic places!\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1572740,
+      "text": "\"Look, between you and me, I know he's living in a cave in the forest... I hope his midlife crisis passes soon...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1572855,
+      "text": "\"Would you mind bringing him these clean clothes? Don't say they're from me. Just tell him he won a prize.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1573188,
+      "text": "\"Wow, another prize?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1573210,
+      "text": "\"Just in time, too. I'm down to my last pair of underwear.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1573553,
+      "text": "\"Hey, can you help me with something? We're short on staff lately and, well, some of our mail went to the wrong address by mistake...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1573688,
+      "text": "\"Go find Doctor Frieb and see if he's received any packages lately. He lives at the base of the mountain temple.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1574098,
+      "text": "\"They probably mixed me up with Doctor Frebi at Capital Corp...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1574225,
+      "text": "\"I... uh... ordered the wrong thing anyway... Tell her I don't need it anymore...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1574563,
+      "text": "\"Oh hey, you work for the delivery company? I've been meaning to talk to you guys...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1574649,
+      "text": "\"Do you know why I received 63 packets of instant noodles? Was that meant to go to the grocery store or something?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1574765,
+      "text": "\"You don't know anything about that? Oh well. Thanks for the package.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1575107,
+      "text": "\"Excuse me, could you please take this offering up to the mountain temple for me?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1575190,
+      "text": "\"I have trouble making it up the slope by myself these days.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1575491,
+      "text": "\"Oh, pastries and sake?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1575516,
+      "text": "\"My favourite.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1575786,
+      "text": "\"Check this out! I was diving for oysters earlier and found these old lock boxes buried in the sand.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1575888,
+      "text": "\"One of them had a letter inside. It's a bit wet, but I can make out the name Dave at the top.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1575984,
+      "text": "\"Pretty crazy huh? I know a guy called Dave. Do you think it could be the same one?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1576069,
+      "text": "\"He's probably down at smelly falls, if you want to take it to him.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1576372,
+      "text": "\"A letter for me? From under the sea? The one who wrote it... is me!\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1576442,
+      "text": "\"Let's see what I wrote to myself all those years ago...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1576501,
+      "text": "\"Dear Future Dave...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1576525,
+      "text": "\"Keep practicing every day...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1576558,
+      "text": "\"Get plenty of sunshine...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1576588,
+      "text": "\"Take care of your hair. Let it grow wild and free. Your hair is your soul and the most defining feature of your personality.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1607639,
+      "text": "\"Looks like I slept in... I better start today's deliveries.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1607701,
+      "text": "\"I've got five on the list. Hopefully they're easy to find.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1607762,
+      "text": "\"Alright, I better get going.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1744264,
+      "text": "\"Sorry, I'm on my lunch break.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1744977,
+      "text": "\"Senior associate executive chief vice director...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1745029,
+      "text": "\"It has a nice ring to it, don't you think?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1745717,
+      "text": "\"Have you seen my daughter? I thought she'd be home by now...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1746453,
+      "text": "\"Maybe I should just call in sick...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1747925,
+      "text": "\"Tulips can take a while to bloom.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1748641,
+      "text": "\"I think I hear my dad calling...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1749354,
+      "text": "\"Have you heard of a thing called three.js?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1749399,
+      "text": "\"Well... I suppose most people don't know about 3D experiences.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1749464,
+      "text": "\"They're an art form that combines creativity and technology.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1749527,
+      "text": "\"It's like painting, but with code!\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1750333,
+      "text": "\"Shipments in... shipments out...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1751272,
+      "text": "\"The new guy is late again.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1752021,
+      "text": "\"We'll need to build here... here... and also here...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1753513,
+      "text": "\"I think I've seen you somewhere before...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1754297,
+      "text": "\"Let's see... First I'll need to calculate the radius of the bike tire...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1755034,
+      "text": "\"Come on... open up...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1755833,
+      "text": "\"Do you hear that sound? Silence...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1755870,
+      "text": "\"I mean, there's the wind chimes too, but it's mostly silence...\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1756653,
+      "text": "\"Thank you for delivering my offering.\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1757402,
+      "text": "\"Have you heard this one before?\""
+    },
+    {
+      "label": "DIALOGUE_SENTENCE",
+      "offset": 1794513,
+      "text": "\"Capital Corp.\""
+    }
+  ],
+  "DELIVERY_ITEM": [
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 56355,
+      "text": "\"THREE.ColorManagement: .fromWorkingColorSpace() has been renamed to .workingToColorSpace().\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 56528,
+      "text": "\"THREE.ColorManagement: .toWorkingColorSpace() has been renamed to .colorSpaceToWorking().\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 141745,
+      "text": "\"THREE.BufferGeometry.computeBoundingBox(): GLBufferAttribute requires a manual bounding box.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 506562,
+      "text": "\"WEBGL_multisampled_render_to_texture\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 522090,
+      "text": "\"} ${c}: ${i[l]}`)}return s.join(`\n`)}const _m0$5=new Matrix3;function getEncodingComponents(r){ColorManagement._getMatrix(_m0$5,ColorManagement.workingColorSpace,r);const e=`mat3( ${_m0$5.elements.map(i=>i.toFixed(4))} )`;switch(ColorManagement.getTransfer(r)){case LinearTransfer:return[e,\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 523516,
+      "text": "\"}const _v0$m=new Vector3;function getLuminanceFunction(){ColorManagement.getLuminanceCoefficients(_v0$m);const r=_v0$m.x.toFixed(4),e=_v0$m.y.toFixed(4),i=_v0$m.z.toFixed(4);return[\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 533799,
+      "text": "\"\tuniform sampler2D morphTexture;\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 579082,
+      "text": "\"WEBGL_multisampled_render_to_texture\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 579128,
+      "text": "\"WEBGL_multisampled_render_to_texture\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 607771,
+      "text": "\"WEBGL_multisampled_render_to_texture\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 634454,
+      "text": "\"THREE.WebGLRenderer: Texture samplers can not be part of an uniforms group.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 649664,
+      "text": "\"WEBGL_multisampled_render_to_texture\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 869358,
+      "text": "\"+l.sampler;if(this.textureCache[h])return this.textureCache[h];const d=this.loadImageSource(i,s).then(function(p){p.flipY=!1,p.name=l.name||c.name||\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 884625,
+      "text": "\",e.indices).then(function(c){r.setIndex(c)});a.push(l)}return ColorManagement.workingColorSpace!==LinearSRGBColorSpace&&\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 884840,
+      "text": "\"${ColorManagement.workingColorSpace}\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 988785,
+      "text": "\",r.toFixed(12)),this.setChanged()}get samples(){return Number(this.defines.get(\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 988873,
+      "text": "\"))}set samples(r){this.defines.set(\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1175672,
+      "text": "\"intro-letters\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1175692,
+      "text": "\"intro/letters.ogg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178054,
+      "text": "\"clothes\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178068,
+      "text": "\"character/clothes.ogg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178748,
+      "text": "\"open-box1\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178764,
+      "text": "\"ui/openbox1.ogg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178826,
+      "text": "\"open-box2\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178842,
+      "text": "\"ui/openbox2.ogg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178905,
+      "text": "\"open-box-emote\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178926,
+      "text": "\"ui/openbox-emote.ogg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1178994,
+      "text": "\"open-box-checklist\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1179019,
+      "text": "\"ui/openbox-checklist.ogg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1514103,
+      "text": "\"package\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1519845,
+      "text": "\"package\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1553843,
+      "text": "\",width:2,letterSpacing:0,lineHeight:.85,...((o=this._options)==null?void 0:o.textOptions)||{}},(s==null?void 0:s(a))||void 0),this._textMesh.name=\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1570958,
+      "text": "\"Thank god you're here! I sent a letter to my boss earlier, but I need to get it back before he sees it...\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1571199,
+      "text": "\"Find the red cliff house and get the letter back\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1571468,
+      "text": "\"Can you take this note back to him? He works in the main square.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1571712,
+      "text": "\"deliveries/note.drc\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1572194,
+      "text": "\"Hey there! Can you please take this postcard to my wife? She sells flowers in the main square.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1572413,
+      "text": "\"ui/quests/flowerlady.icon\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1572542,
+      "text": "\"deliveries/postcard.drc\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1572574,
+      "text": "\"flower-lady\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1572618,
+      "text": "\"Oh, a postcard from my husband!\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1572855,
+      "text": "\"Would you mind bringing him these clean clothes? Don't say they're from me. Just tell him he won a prize.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1573117,
+      "text": "\"deliveries/clothes.drc\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1573688,
+      "text": "\"Go find Doctor Frieb and see if he's received any packages lately. He lives at the base of the mountain temple.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1574481,
+      "text": "\"deliveries/samplebox.drc\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1574765,
+      "text": "\"You don't know anything about that? Oh well. Thanks for the package.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1575018,
+      "text": "\"An offering to the mountain temple\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1575107,
+      "text": "\"Excuse me, could you please take this offering up to the mountain temple for me?\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1575415,
+      "text": "\"deliveries/offering.drc\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1575716,
+      "text": "\"A note lost at sea\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1575786,
+      "text": "\"Check this out! I was diving for oysters earlier and found these old lock boxes buried in the sand.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1575888,
+      "text": "\"One of them had a letter inside. It's a bit wet, but I can make out the name Dave at the top.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1576298,
+      "text": "\"deliveries/letterwet.drc\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1576372,
+      "text": "\"A letter for me? From under the sea? The one who wrote it... is me!\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1579496,
+      "text": "\"quest_box_display_after_step\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1591433,
+      "text": "\",size:1,width:20,letterSpacing:.01,lineHeight:1.1,color:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1599491,
+      "text": "\"intro-letters\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1634105,
+      "text": "\"clothes\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1747532,
+      "text": "\"flower-lady\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1756653,
+      "text": "\"Thank you for delivering my offering.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1789521,
+      "text": "\")]);this.mesh=new meshText({font:this.font,small:!1,text:this.data.text.toUpperCase(),size:1,width:5,letterSpacing:-.05,lineHeight:.8,color:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1796735,
+      "text": "\"textbox-bg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1799364,
+      "text": "\"hi, how are you doing? i was wondering if you would mind delivering this letter to my brother.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1799580,
+      "text": "\"textbox text\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1799639,
+      "text": "\"texbox text\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1802459,
+      "text": "\"Textbox Text\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1805192,
+      "text": "\"titlebox-bg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1807801,
+      "text": "\".toUpperCase(),size:1,width:20,letterSpacing:0,lineHeight:1.1,color:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1813272,
+      "text": "\"arrowbox-bg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1820813,
+      "text": "\"dialog box\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1822217,
+      "text": "\"hi, how are you doing? i was wondering if you would mind delivering this letter to my brother.\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1823354,
+      "text": "\",this.npcIDShowing)}resize(){this.textBox.resize().then(()=>{this.titleBox.resize(),this.arrowBox.resize()})}}class textbox{constructor(e){this.dialog=e,this.ready=miscutils.deferred(),this.volumes={dialogue:0},this.font=\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1823778,
+      "text": "\"questbox-bg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1826912,
+      "text": "\".toUpperCase(),size:1,width:27,letterSpacing:-.05,lineHeight:1.1,color:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1827033,
+      "text": "\"textbox text\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1827092,
+      "text": "\"texbox text\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1829912,
+      "text": "\"Textbox Text\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1835786,
+      "text": "\"titlebox-bg\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1838418,
+      "text": "\".toUpperCase(),size:1,width:20,letterSpacing:0,lineHeight:1.1,color:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1843739,
+      "text": "\"quest box\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1844172,
+      "text": "\"quest_box_display_after_step\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1849975,
+      "text": "\".toUpperCase(),size:1,width:27,letterSpacing:-.05,lineHeight:1.1,color:`#${this.enabledColor.getHexString()}`,align:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1850186,
+      "text": "\"texbox text\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1854434,
+      "text": "\"open-box2\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1854480,
+      "text": "\"open-box-checklist\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1854887,
+      "text": "\"open-box1\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1868133,
+      "text": "\"open-box2\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1868179,
+      "text": "\"open-box-emote\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1868667,
+      "text": "\"open-box1\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1873520,
+      "text": "\".toUpperCase(),size:1,width:10,letterSpacing:-.05,lineHeight:1.1,color:`#${this.color.getHexString()}`,align:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1873950,
+      "text": "\".toUpperCase(),size:1,width:10,letterSpacing:-.05,lineHeight:1.1,color:`#${this.color.getHexString()}`,align:\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1883192,
+      "text": "\",this.boxVolume={value:0},this.init()}async init(){this.cameraOptions(),this.domContainer=document.createElement(\""
+    },
+    {
+      "label": "DELIVERY_ITEM",
+      "offset": 1888483,
+      "text": "\",this.boxVolume.value*.4)}}),createTween(this.boxVolume,{from:{value:1},to:{value:0},overwrite:!1,delay:e*(1-.05),duration:e*.05+.2,onUpdate:()=>{events$1.emit(\""
+    }
+  ],
+  "NPC_DEF": [
+    {
+      "label": "NPC_DEF",
+      "offset": 166027,
+      "text": "name:\"CubemapFromEquirect\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 480897,
+      "text": "name:\"BackgroundCubeMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 482247,
+      "text": "name:\"BackgroundMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 496715,
+      "text": "name:\"PMREM.Background\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 500343,
+      "text": "name=\"PMREM.cubeUv\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 500579,
+      "text": "name:\"SphericalGaussianBlur\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 502374,
+      "text": "name:\"EquirectangularToCubeUV\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 502935,
+      "text": "name:\"CubemapToCubeUV\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 714542,
+      "text": "name=\"firefox\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 714989,
+      "text": "name=\"safari\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 715274,
+      "text": "name=\"chrome\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 878183,
+      "text": "name:\"animation_\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 912195,
+      "text": "name:\"CopyShader\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 912921,
+      "text": "name:\"unspecified\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 914903,
+      "text": "name=\"EffectComposer.rt1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 915053,
+      "text": "name=\"EffectComposer.rt2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 922088,
+      "text": "name:\"CopyMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 922800,
+      "text": "name=\"CopyPass.Target\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 927962,
+      "text": "name=\"EffectComposer.Buffer\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 950192,
+      "text": "name:\"KawaseBlurMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 951462,
+      "text": "name=\"Blur.Target.A\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 951556,
+      "text": "name=\"Blur.Target.B\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 954413,
+      "text": "name:\"LuminanceMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 956508,
+      "text": "name=\"LuminancePass.Target\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 959510,
+      "text": "name:\"DownsamplingMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 961409,
+      "text": "name:\"UpsamplingMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 962157,
+      "text": "name=\"Upsampling.Mipmap0\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 962640,
+      "text": "name=\"Downsampling.Mipmap\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 962788,
+      "text": "name=\"Upsampling.Mipmap\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 965151,
+      "text": "name=\"Bloom.Target\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 968907,
+      "text": "name:\"BokehMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 971411,
+      "text": "name:\"CircleOfConfusionMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 974366,
+      "text": "name:\"MaskMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 977684,
+      "text": "name=\"DoF.Intermediate\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 977790,
+      "text": "name=\"DoF.Masked.Far\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 977890,
+      "text": "name=\"DoF.Bokeh.Near\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 978061,
+      "text": "name=\"DoF.Bokeh.Far\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 978229,
+      "text": "name=\"DoF.CoC\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 978406,
+      "text": "name=\"DoF.CoC.Blurred\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 990892,
+      "text": "name:\"DepthMaskMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 994026,
+      "text": "name:\"GodRaysMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 998625,
+      "text": "name=\"GodRays.Target.A\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 998722,
+      "text": "name=\"GodRays.Target.B\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 998885,
+      "text": "name=\"GodRays.Light\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1003391,
+      "text": "name=\"DepthPass.Target\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1004635,
+      "text": "name=\"Bloom.Masked\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1010596,
+      "text": "name:\"EdgeDetectionMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1021940,
+      "text": "name:\"SMAAWeightsMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1093631,
+      "text": "name=\"SMAA.Edges\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1093738,
+      "text": "name=\"SMAA.Weights\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1094230,
+      "text": "name=\"SMAA.Search\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1094412,
+      "text": "name=\"SMAA.Area\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1097811,
+      "text": "name:\"AdaptiveLuminanceMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1099438,
+      "text": "name=\"Luminance.Previous\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1099698,
+      "text": "name=\"Luminance.Adapted\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1102460,
+      "text": "name=\"Luminance\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1107902,
+      "text": "name:\"EffectMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1111548,
+      "text": "name:\"GaussianBlurMaterial\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1119048,
+      "text": "name=\"Blur.Target.A\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1119142,
+      "text": "name=\"Blur.Target.B\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1129722,
+      "text": "name=\"particlesGPU\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1143304,
+      "text": "name=\"BatchedGPU\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1151995,
+      "text": "name=\"ParticlesGPU\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1171969,
+      "text": "name=\"Text (Font)\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1175464,
+      "text": "name:\"bgmusic\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1175570,
+      "text": "name:\"quest-complete\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1175667,
+      "text": "name:\"intro-letters\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1175751,
+      "text": "name:\"button-turn\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1175860,
+      "text": "name:\"button-out\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1175946,
+      "text": "name:\"rune1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176043,
+      "text": "name:\"rune2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176140,
+      "text": "name:\"rune3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176237,
+      "text": "name:\"rune4\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176334,
+      "text": "name:\"ambiance-base\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176438,
+      "text": "name:\"ambiance-forest\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176546,
+      "text": "name:\"ambiance-city\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176650,
+      "text": "name:\"ambiance-factory\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176760,
+      "text": "name:\"ambiance-beach\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176866,
+      "text": "name:\"ambiance-waterfalls\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1176982,
+      "text": "name:\"ambiance-temple\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177090,
+      "text": "name:\"footsteps\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177204,
+      "text": "name:\"footsteps-water\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177329,
+      "text": "name:\"jump\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177411,
+      "text": "name:\"land\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177494,
+      "text": "name:\"emoji-starts1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177589,
+      "text": "name:\"emoji-starts2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177684,
+      "text": "name:\"emoji-starts3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177779,
+      "text": "name:\"emoji-ends1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177869,
+      "text": "name:\"emoji-ends2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1177959,
+      "text": "name:\"emoji-ends3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178049,
+      "text": "name:\"clothes\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178131,
+      "text": "name:\"zoom-off\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178214,
+      "text": "name:\"zoom-in\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178295,
+      "text": "name:\"whoosh\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178373,
+      "text": "name:\"title\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178445,
+      "text": "name:\"buttons\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178522,
+      "text": "name:\"hover2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178595,
+      "text": "name:\"click2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178669,
+      "text": "name:\"click3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178743,
+      "text": "name:\"open-box1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178821,
+      "text": "name:\"open-box2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178900,
+      "text": "name:\"open-box-emote\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1178989,
+      "text": "name:\"open-box-checklist\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179085,
+      "text": "name:\"paper1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179185,
+      "text": "name:\"paper4\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179294,
+      "text": "name:\"customize\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179374,
+      "text": "name:\"quest-complete\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179464,
+      "text": "name:\"dialogue-quest\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179602,
+      "text": "name:\"dialogue-male1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179786,
+      "text": "name:\"dialogue-male2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1179970,
+      "text": "name:\"dialogue-male3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1180154,
+      "text": "name:\"dialogue-female1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1180344,
+      "text": "name:\"dialogue-female2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1180534,
+      "text": "name:\"dialogue-female3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1180724,
+      "text": "name:\"dialogue-wtf\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1180902,
+      "text": "name:\"bubble-starts\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1181101,
+      "text": "name:\"bubble-ends\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1181294,
+      "text": "name:\"dialogue-music-dave\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1204024,
+      "text": "name=\"color\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1204042,
+      "text": "name=\"info\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1204182,
+      "text": "name=\"Big Triangle\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1242797,
+      "text": "name=\"birds\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1259806,
+      "text": "name=\"Planet\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1259880,
+      "text": "name=\"Water\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1259951,
+      "text": "name=\"Trees\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1260024,
+      "text": "name=\"Clouds\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1261494,
+      "text": "name=\"Sky\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1262567,
+      "text": "name=\"Cables\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1272046,
+      "text": "name=\"waterfallvfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1274669,
+      "text": "name=\"waterfallsplashvfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1278470,
+      "text": "name=\"waterfallinletvfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1280709,
+      "text": "name=\"Atmosphere\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1286037,
+      "text": "name=\"Title Group\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1286241,
+      "text": "name=\"Title\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1287197,
+      "text": "name=\"Title Hitmesh\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1295505,
+      "text": "name=\"stars\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1299401,
+      "text": "name=\"Galaxies\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1300392,
+      "text": "name=\"followCSM\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1400348,
+      "text": "name=\"PlayerControls UI\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1402178,
+      "text": "name=\"Move Circle\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1403503,
+      "text": "name=\"Jump Circle\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1419098,
+      "text": "name=\"tags\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1429993,
+      "text": "name=\"trails\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1528667,
+      "text": "name=\"Characters\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1547152,
+      "text": "name=\"inactive\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1547785,
+      "text": "name=\"active\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1553491,
+      "text": "name=\"bubble background\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1553985,
+      "text": "name=\"bubble text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1559474,
+      "text": "name=\"Text Bubbles Cnt\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1591307,
+      "text": "name=\"Button\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1591628,
+      "text": "name=\"Button text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1591736,
+      "text": "name=\"Button Animation Group\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1591858,
+      "text": "name=\"Button Group\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595599,
+      "text": "name=\"Planet Group\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595684,
+      "text": "name:\"planet\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595715,
+      "text": "name:\"sky\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595743,
+      "text": "name:\"birds\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595849,
+      "text": "name:\"cables\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595884,
+      "text": "name:\"waterfall\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595923,
+      "text": "name:\"atmosphere\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595960,
+      "text": "name:\"title\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1595994,
+      "text": "name:\"particles\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1596031,
+      "text": "name:\"galaxies\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1596065,
+      "text": "name:\"button\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1607154,
+      "text": "name=\"color\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1607172,
+      "text": "name=\"info\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1607362,
+      "text": "name=\"Big Triangle\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1607579,
+      "text": "name:\"MESSENGER\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1607612,
+      "text": "voice:\"quest\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1608551,
+      "text": "name:\"emojis\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1618291,
+      "text": "name=\"Emojis\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1620740,
+      "text": "name:\"base\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1622750,
+      "text": "name=\"Give Object\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1642628,
+      "text": "name=\"planet-chunks-LOD-0\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1662654,
+      "text": "name:\"Unnamed NPC\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1668589,
+      "text": "name=\"sky\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1672114,
+      "text": "name:\"water\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1678573,
+      "text": "name=\"water\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1684996,
+      "text": "name=\"waterfallvfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1687630,
+      "text": "name=\"waterfallsplashvfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1691447,
+      "text": "name=\"waterfallinletvfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1700665,
+      "text": "name=\"beachwavevfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1706510,
+      "text": "name=\"smoke\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1706815,
+      "text": "name=\"cables\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1711336,
+      "text": "name:\"grass\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1719654,
+      "text": "name=\"grass\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1721093,
+      "text": "name:\"butterflies\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1730172,
+      "text": "name=\"butterflies\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1731707,
+      "text": "name:\"trees-leaves\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1740947,
+      "text": "name=\"tree-leaves\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742502,
+      "text": "name:\"water\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742539,
+      "text": "name:\"waterfallvfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742583,
+      "text": "name:\"beachwavevfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742621,
+      "text": "name:\"cables\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742655,
+      "text": "name:\"smokevfx\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742686,
+      "text": "name:\"sky\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742716,
+      "text": "name:\"grass\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742752,
+      "text": "name:\"butterflies\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742788,
+      "text": "name:\"treeleaves\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742823,
+      "text": "name:\"birds\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1742926,
+      "text": "name:\"birds2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1744477,
+      "text": "name:\"Walking Man\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1745325,
+      "text": "name:\"Office Worker\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1745362,
+      "text": "voice:\"male3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1746024,
+      "text": "name:\"Shop Keeper\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1746059,
+      "text": "voice:\"male2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1746765,
+      "text": "name:\"Cave Man\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1746797,
+      "text": "voice:\"male3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1747454,
+      "text": "name:\"Boss\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1747482,
+      "text": "voice:\"male1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1748236,
+      "text": "name:\"Flower Lady\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1748271,
+      "text": "voice:\"female2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1748899,
+      "text": "name:\"Young Kid\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1748932,
+      "text": "voice:\"female3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1749785,
+      "text": "name:\"Hacker Girl\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1749820,
+      "text": "voice:\"female3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1750614,
+      "text": "name:\"Factory Worker\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1750652,
+      "text": "voice:\"male1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1751481,
+      "text": "name:\"Tengo\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1751510,
+      "text": "voice:\"male1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1752327,
+      "text": "name:\"Doctor Frebi\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1752363,
+      "text": "voice:\"female1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1753115,
+      "text": "name:\"Getave\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1753145,
+      "text": "voice:\"male1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1753782,
+      "text": "name:\"Pale Man\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1753814,
+      "text": "voice:\"wtf\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1754625,
+      "text": "name:\"Doctor Frieb\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1754661,
+      "text": "voice:\"male3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1755350,
+      "text": "name:\"Captain Steve\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1755387,
+      "text": "voice:\"male3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1756210,
+      "text": "name:\"Mountain Guy\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1756246,
+      "text": "voice:\"male3\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1756960,
+      "text": "name:\"Old Woman\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1756993,
+      "text": "voice:\"female1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1757710,
+      "text": "name:\"Dave the Musician\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1757751,
+      "text": "voice:\"male2\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1758331,
+      "text": "name:\"Fox\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1758358,
+      "text": "voice:\"male1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1758941,
+      "text": "name:\"Owl\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1758968,
+      "text": "voice:\"male1\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1763165,
+      "text": "name=\"trait squares\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1765168,
+      "text": "name=\"trait close\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1767299,
+      "text": "name=\"trait arrows\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1777586,
+      "text": "name=\"sidebutton squares\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1778230,
+      "text": "name:\"side-icons\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1782503,
+      "text": "name=\"sidebutton icons\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1789762,
+      "text": "name:\"zone\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1795332,
+      "text": "name=\"zone titles\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1799083,
+      "text": "name=\"text bg\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1799575,
+      "text": "name:\"textbox text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1802454,
+      "text": "name=\"Textbox Text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1807506,
+      "text": "name=\"title bg\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1807970,
+      "text": "name:\"title text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1810905,
+      "text": "name=\"title text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1815484,
+      "text": "name=\"arrow bg\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1817089,
+      "text": "name=\"arrow icon\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1820808,
+      "text": "name=\"dialog box\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1826423,
+      "text": "name=\"text bg\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1827028,
+      "text": "name:\"textbox text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1829907,
+      "text": "name=\"Textbox Text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1830113,
+      "text": "name:\"quest-icon\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1832078,
+      "text": "name=\"quest icon\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1838100,
+      "text": "name=\"quest title bg\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1838587,
+      "text": "name:\"quest title text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1841534,
+      "text": "name=\"quest title text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1843734,
+      "text": "name=\"quest box\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1846152,
+      "text": "name=\"Checklist Red Dot\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1849677,
+      "text": "name=\"checklist bg\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1850120,
+      "text": "name:\"checklist-text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1853000,
+      "text": "name=\"Checklist Text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1861234,
+      "text": "name=\"emojis icons Top\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1863980,
+      "text": "name=\"emojilist bg\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1864546,
+      "text": "name=\"emojis icons Bottom\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1864719,
+      "text": "name=\"emojis icons Top\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1873755,
+      "text": "name=\"End Screen Text\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1874193,
+      "text": "name=\"End Screen Text Continue\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1876021,
+      "text": "name=\"End Screen Underline\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1884232,
+      "text": "name:\"globalUI\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1888079,
+      "text": "name=\"Global UI Blend Mesh\""
+    },
+    {
+      "label": "NPC_DEF",
+      "offset": 1889489,
+      "text": "name=\"Main triangle mesh\""
+    }
+  ],
+  "QUEST_ID": [
+    {
+      "label": "QUEST_ID",
+      "offset": 1554796,
+      "text": "\"npc_bubble_show\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1555290,
+      "text": "\"npc_bubble_text_starts\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1555418,
+      "text": "\"npc_bubble_text_ends\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1555909,
+      "text": "\"npc_bubble_hide\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1556161,
+      "text": "\"npc_bubble_hidden\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1560706,
+      "text": "\"quest_enable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1560762,
+      "text": "\"quest_disable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1560820,
+      "text": "\"npc_force_next_dialog\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1560884,
+      "text": "\"npc_force_close_dialog\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1562941,
+      "text": "\"quest_step_texts_check\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1563602,
+      "text": "\"npc_dialog_finished\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1563648,
+      "text": "\"quest_step_check\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1564934,
+      "text": "\"npc_dialog_close\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1565091,
+      "text": "\"npc_dialog_interrupted\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1565186,
+      "text": "\"npc_dialog_open\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1565526,
+      "text": "\"npc_talk_update\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1567712,
+      "text": "\"quest_enable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1567769,
+      "text": "\"quest_disable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1567828,
+      "text": "\"npc_force_next_dialog\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1567893,
+      "text": "\"npc_force_close_dialog\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1568852,
+      "text": "\"quest_step_texts_check\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1568914,
+      "text": "\"quest_step_check\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1569267,
+      "text": "\"quest_enable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1569974,
+      "text": "\"quest_step_completed\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1570163,
+      "text": "\"quest_disable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1570234,
+      "text": "\"quest_completed\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1570699,
+      "text": "\"quest_step_texts_check\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1570762,
+      "text": "\"quest_step_check\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1578229,
+      "text": "\"quest_enable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1578284,
+      "text": "\"quest_disable_id\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1578341,
+      "text": "\"quest_step_completed\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1578408,
+      "text": "\"quest_completed\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1579330,
+      "text": "\"quest_info_checklist_update\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1579496,
+      "text": "\"quest_box_display_after_step\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1579601,
+      "text": "\"quest_receive_model\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1607905,
+      "text": "\"npc_force_next_dialog\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1607961,
+      "text": "\"npc_dialog_open\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1608046,
+      "text": "\"npc_dialog_close\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1608122,
+      "text": "\"npc_dialog_finished\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1622883,
+      "text": "\"quest_receive_model\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1622936,
+      "text": "\"quest_give_model\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1624190,
+      "text": "\"quest_receive_model\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1624244,
+      "text": "\"quest_give_model\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1646897,
+      "text": "\"npc_bubble_text_starts\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1646961,
+      "text": "\"npc_bubble_text_ends\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1647021,
+      "text": "\"npc_bubble_show\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1647076,
+      "text": "\"npc_bubble_hide\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1665102,
+      "text": "\"npc_talk_update\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1759295,
+      "text": "\"npc_talk_update\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1783704,
+      "text": "\"npc_dialog_shown\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1783759,
+      "text": "\"npc_dialog_hidden\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1795746,
+      "text": "\"npc_dialog_shown\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1821106,
+      "text": "\"npc_dialog_open\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1821152,
+      "text": "\"npc_dialog_close\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1821275,
+      "text": "\"npc_dialog_finished\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1821330,
+      "text": "\"npc_dialog_interrupted\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1821840,
+      "text": "\"npc_dialog_shown\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1822149,
+      "text": "\"npc_dialog_hidden\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1822603,
+      "text": "\"npc_force_close_dialog\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1823332,
+      "text": "\"npc_force_next_dialog\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1844032,
+      "text": "\"npc_dialog_shown\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1844172,
+      "text": "\"quest_box_display_after_step\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1853576,
+      "text": "\"npc_dialog_shown\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1853758,
+      "text": "\"quest_info_checklist_update\""
+    },
+    {
+      "label": "QUEST_ID",
+      "offset": 1866190,
+      "text": "\"npc_dialog_shown\""
+    }
+  ],
+  "DESCRIPTION": [
+    {
+      "label": "DESCRIPTION",
+      "offset": 1570852,
+      "text": "description:\"Falling off the corporate ladder\""
+    },
+    {
+      "label": "DESCRIPTION",
+      "offset": 1572095,
+      "text": "description:\"A man who'"
+    },
+    {
+      "label": "DESCRIPTION",
+      "offset": 1573444,
+      "text": "description:\"Scientists and mixed-up deliveries\""
+    },
+    {
+      "label": "DESCRIPTION",
+      "offset": 1575006,
+      "text": "description:\"An offering to the mountain temple\""
+    },
+    {
+      "label": "DESCRIPTION",
+      "offset": 1575704,
+      "text": "description:\"A note lost at sea\""
+    }
+  ],
+  "QUEST_TEXTS_ARRAY": [
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1570951,
+      "text": "texts:[\"Thank god you're here! I sent a letter to my boss earlier, but I need to get it back before he sees it...\",\"He lives at the red cliff house. Do you think he's read it yet?\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1571304,
+      "text": "texts:[\"One of my employees wrote this? I can't believe it... this... is...\",\"...hilarious. Wow, he's really roasting me. Maybe he's manager material after all...\",\"Can you take this note back to him? He works in the main square.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1571781,
+      "text": "texts:[\"I'm getting... promoted?\",\"Wow, who would have known that acting on my lowest instincts would help me advance in the corporate world.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1572187,
+      "text": "texts:[\"Hey there! Can you please take this postcard to my wife? She sells flowers in the main square.\",\"I'd give it to her myself but I... uh... have a bad knee at the moment...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1572611,
+      "text": "texts:[\"Oh, a postcard from my husband!\",\"He's on an overseas business trip at the moment, visiting all kinds of exotic places!\",\"Look, between you and me, I know he's living in a cave in the forest... I hope his midlife crisis passes soon...\",\"Would you mind bringing him these clean clothes? Don't say they're from me. Just tell him he won a prize.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1573181,
+      "text": "texts:[\"Wow, another prize?\",\"Just in time, too. I'm down to my last pair of underwear.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1573546,
+      "text": "texts:[\"Hey, can you help me with something? We're short on staff lately and, well, some of our mail went to the wrong address by mistake...\",\"Go find Doctor Frieb and see if he's received any packages lately. He lives at the base of the mountain temple.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1573988,
+      "text": "texts:['Hello! Yes, I opened some mail by mistake earlier. A \"planet gravity data analysis\", or something...',\"They probably mixed me up with Doctor Frebi at Capital Corp...\",\"...wait, does that mean MY ORDER went to Dr Frebi? Oh no!!!\",\"I... uh... ordered the wrong thing anyway... Tell her I don't need it anymore...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1574556,
+      "text": "texts:[\"Oh hey, you work for the delivery company? I've been meaning to talk to you guys...\",\"Do you know why I received 63 packets of instant noodles? Was that meant to go to the grocery store or something?\",\"You don't know anything about that? Oh well. Thanks for the package.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1575100,
+      "text": "texts:[\"Excuse me, could you please take this offering up to the mountain temple for me?\",\"I have trouble making it up the slope by myself these days.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1575484,
+      "text": "texts:[\"Oh, pastries and sake?\",\"My favourite.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1575779,
+      "text": "texts:[\"Check this out! I was diving for oysters earlier and found these old lock boxes buried in the sand.\",\"One of them had a letter inside. It's a bit wet, but I can make out the name Dave at the top.\",\"Pretty crazy huh? I know a guy called Dave. Do you think it could be the same one?\",\"He's probably down at smelly falls, if you want to take it to him.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1576365,
+      "text": "texts:[\"A letter for me? From under the sea? The one who wrote it... is me!\",\"Let's see what I wrote to myself all those years ago...\",'\"Dear Future Dave...\"','\"Keep practicing every day...\"','\"Get plenty of sunshine...\"','\"Take care of your hair. Let it grow wild and free. Your hair is your soul and the most defining feature of your personality.\"',\"Well...\",\"...two out of three ain't bad.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1661819,
+      "text": "texts:[\"hello there\",\"how are you?\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1744257,
+      "text": "texts:[\"Sorry, I'm on my lunch break.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1744970,
+      "text": "texts:[\"Senior associate executive chief vice director...\",\"It has a nice ring to it, don't you think?\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1745710,
+      "text": "texts:[\"Have you seen my daughter? I thought she'd be home by now...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1746446,
+      "text": "texts:[\"Maybe I should just call in sick...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1747149,
+      "text": "texts:[\"Oh my...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1747918,
+      "text": "texts:[\"Tulips can take a while to bloom.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1748634,
+      "text": "texts:[\"I think I hear my dad calling...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1749338,
+      "text": "texts:[\"Hello.\",\"Have you heard of a thing called three.js?\",\"Well... I suppose most people don't know about 3D experiences.\",\"They're an art form that combines creativity and technology.\",\"It's like painting, but with code!\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1750326,
+      "text": "texts:[\"Shipments in... shipments out...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1751265,
+      "text": "texts:[\"The new guy is late again.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1752014,
+      "text": "texts:[\"We'll need to build here... here... and also here...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1753506,
+      "text": "texts:[\"I think I've seen you somewhere before...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1754290,
+      "text": "texts:[\"Let's see... First I'll need to calculate the radius of the bike tire...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1755027,
+      "text": "texts:[\"Come on... open up...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1755826,
+      "text": "texts:[\"Do you hear that sound? Silence...\",\"I mean, there's the wind chimes too, but it's mostly silence...\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1756646,
+      "text": "texts:[\"Thank you for delivering my offering.\"]"
+    },
+    {
+      "label": "QUEST_TEXTS_ARRAY",
+      "offset": 1757395,
+      "text": "texts:[\"Have you heard this one before?\"]"
+    }
+  ],
+  "UI_TASK_TEXT": [
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1571618,
+      "text": "\"TAKE THE BOSS'S NOTE TO THE OFFICE WORKER IN THE MAIN SQUARE\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1571996,
+      "text": "\"CONGRATULATIONS! ANOTHER SUCCESSFUL DELIVERY COMPLETED\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1572448,
+      "text": "\"TAKE THE CAVE MAN'S POSTCARD TO THE WOMAN IN THE MAIN SQUARE\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1573038,
+      "text": "\"TAKE THE CLEAN CLOTHES TO THE MAN IN THE CAVE\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1573342,
+      "text": "\"CONGRATULATIONS! ANOTHER SUCCESSFUL DELIVERY COMPLETED\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1573869,
+      "text": "\"FIND DOCTOR FRIEB AT THE BASE OF THE MOUNTAIN TEMPLE\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1574384,
+      "text": "\"TAKE THE GRAVITY DATA ANALYSIS TO DOCTOR FREBI, AT CAPITAL CORP\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1574908,
+      "text": "\"CONGRATULATIONS! ANOTHER SUCCESSFUL DELIVERY COMPLETED\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1575329,
+      "text": "\"TAKE THE OLD WOMAN'S OFFERING TO THE MOUNTAIN TEMPLE\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1575604,
+      "text": "\"CONGRATULATIONS! ANOTHER SUCCESSFUL DELIVERY COMPLETED\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1576217,
+      "text": "\"TAKE THE MYSTERY LETTER TO DAVE AT SMELLY FALLS\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1576831,
+      "text": "\"CONGRATULATIONS! ANOTHER SUCCESSFUL DELIVERY COMPLETED\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1826857,
+      "text": "\"GO BACK TO THE MAN IN THE CAVE AND DELIVER THE CLOTHES\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1844973,
+      "text": "\"GO BACK TO THE MAN IN THE CAVE AND DELIVER THE CLOTHES\""
+    },
+    {
+      "label": "UI_TASK_TEXT",
+      "offset": 1878797,
+      "text": "\";i+=`{#size(${(e*2).toFixed(2)})} YOU MADE IT! {#size(${e.toFixed(2)})}\n\n\n`,i+=`YOU FINISHED ALL THE DELIVERIES!\n`,i+=`STAY AND EXPLORE THE WORLD, OR REFRESH YOUR BROWSER TO START AGAIN.\n\n`,i+=`CREATED IN 2025 BY VICENTE LUCENDO AND MICHAEL SUNGAILA. MUSIC BY KEVIN COLOMBIN.\n\n`,i+=\""
+    }
+  ],
+  "I18N": [
+    {
+      "label": "I18N",
+      "offset": 1591618,
+      "text": "this.text.name=\"Button text\""
+    },
+    {
+      "label": "I18N",
+      "offset": 1802444,
+      "text": "this.text.name=\"Textbox Text\""
+    },
+    {
+      "label": "I18N",
+      "offset": 1810895,
+      "text": "this.text.name=\"title text\""
+    },
+    {
+      "label": "I18N",
+      "offset": 1829897,
+      "text": "this.text.name=\"Textbox Text\""
+    },
+    {
+      "label": "I18N",
+      "offset": 1841524,
+      "text": "this.text.name=\"quest title text\""
+    },
+    {
+      "label": "I18N",
+      "offset": 1852990,
+      "text": "this.text.name=\"Checklist Text\""
+    },
+    {
+      "label": "I18N",
+      "offset": 1873745,
+      "text": "this.text.name=\"End Screen Text\""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import { AlertTriangle, ArrowRight, BrainCircuit, CheckCircle2, ChevronRight, Shield, TimerReset, TriangleAlert } from 'lucide-react'
+import { AnimatePresence, motion } from 'motion/react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { GameShell } from '../components/layout/GameShell'
+import { RouteChoiceCard } from '../components/missions/RouteChoiceCard'
+import { Panel } from '../components/ui/Panel'
+import { GlowButton } from '../components/ui/GlowButton'
+import { ProgressBar } from '../components/ui/ProgressBar'
+import { StatusPill } from '../components/ui/StatusPill'
+import { useGameStore } from '../store/gameStore'
+
+export function DecisionPage() {
+  const routes = useGameStore((state) => state.routes)
+  const recommendedRoute = useGameStore((state) => state.recommendedRoute)
+  const lastDecision = useGameStore((state) => state.lastDecision)
+  const isThinking = useGameStore((state) => state.isAiThinking)
+  const chooseRoute = useGameStore((state) => state.chooseRoute)
+  const [selectedRoute, setSelectedRoute] = useState(recommendedRoute)
+
+  return (
+    <GameShell title="EMERGENCY DECISION CHALLENGE" eyebrow="EMERGENCY EVENT / WATER LEVEL RISING">
+      <div className="mx-auto max-w-6xl">
+        <div className="grid gap-4 lg:grid-cols-[0.75fr_1.25fr]">
+          <Panel className="h-full" tone="danger"><div className="p-5 sm:p-7"><div className="flex items-center gap-3"><div className="grid h-11 w-11 place-items-center border border-danger/50 bg-danger/10 text-danger-soft"><AlertTriangle size={22} className="animate-pulse" /></div><div><p className="eyebrow text-danger-soft">EMERGENCY EVENT</p><p className="mono-value mt-1 text-xs font-semibold text-white">EVENT 02 / 03</p></div></div><h1 className="display-title mt-8 text-4xl text-white sm:text-5xl">WATER LEVEL<br /><span className="text-danger-soft">IS RISING.</span></h1><p className="mt-5 text-sm leading-7 text-muted">The shortest line is exposed to a low bridge. Choose an emergency route. RAKSHAK will evaluate the decision against current simulated conditions.</p><div className="mt-8 flex items-start gap-3 border-t border-danger/20 pt-4"><TriangleAlert size={15} className="mt-0.5 shrink-0 text-amber" /><p className="micro-copy text-amber">Safety-first emergency response: dangerous behavior is never rewarded.</p></div></div></Panel>
+          <div className="space-y-4"><Panel eyebrow="PLAYER DECISION" title="CHOOSE YOUR ROUTE" right={<StatusPill tone="amber">INPUT REQUIRED</StatusPill>}><div className="p-4 sm:p-5"><div className="grid gap-3 md:grid-cols-3">{routes.map((route) => <RouteChoiceCard key={route.id} route={route} selected={selectedRoute === route.id} recommended={route.id === recommendedRoute} disabled={isThinking} onSelect={() => setSelectedRoute(route.id)} />)}</div><div className="mt-5 flex flex-col justify-between gap-3 border-t border-white/10 pt-5 sm:flex-row sm:items-center"><div className="flex items-center gap-2 text-muted"><TimerReset size={15} className="text-amber" /><span className="micro-copy">SIMULATION CLOCK / DECISION WINDOW OPEN</span></div><GlowButton onClick={() => chooseRoute(selectedRoute)} disabled={isThinking} icon={<BrainCircuit size={15} />}>{isThinking ? 'ANALYZING DECISION...' : 'EVALUATE DECISION'}</GlowButton></div></div></Panel><AnimatePresence mode="wait">{isThinking && <motion.div key="thinking" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} className="hud-panel border-amber/30 bg-amber/5 p-5"><div className="flex items-center gap-3"><div className="holo-core !h-12 !w-12"><span className="holo-spark !h-2 !w-2" /></div><div><p className="eyebrow text-amber">RAKSHAK / ANALYZING DECISION...</p><p className="mt-1 text-sm text-white">Comparing distance, flood reports, road status and shelter capacity.</p></div></div><ProgressBar value={72} tone="amber" className="mt-5" label="AI decision analysis" /></motion.div>}{lastDecision && !isThinking && <motion.div key="result" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className={`hud-panel p-5 sm:p-6 ${lastDecision.outcome === 'GOOD_DECISION' ? 'hud-panel-safe' : 'hud-panel-danger'}`}><div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start"><div className="flex items-start gap-3">{lastDecision.outcome === 'GOOD_DECISION' ? <CheckCircle2 size={22} className="mt-0.5 text-safe" /> : <TriangleAlert size={22} className="mt-0.5 text-danger-soft" />}<div><p className={`eyebrow ${lastDecision.outcome === 'GOOD_DECISION' ? 'text-safe' : 'text-danger-soft'}`}>{lastDecision.outcome === 'GOOD_DECISION' ? 'GOOD DECISION' : 'RISK DETECTED'}</p><h2 className="display-title mt-2 text-3xl text-white">SAFETY SCORE <span className={lastDecision.outcome === 'GOOD_DECISION' ? 'text-safe' : 'text-danger-soft'}>{lastDecision.safetyScore}</span></h2></div></div><StatusPill tone={lastDecision.outcome === 'GOOD_DECISION' ? 'safe' : 'danger'}>+{lastDecision.xpEarned} XP</StatusPill></div><p className="mt-5 max-w-2xl text-sm leading-6 text-muted">{lastDecision.reason}</p><div className="mt-5 flex flex-wrap gap-2 border-t border-white/10 pt-4"><Link to="/scanner" className="flex items-center gap-2 border border-cyan/40 bg-cyan/5 px-3 py-2 font-mono text-[0.62rem] font-semibold tracking-[0.1em] text-cyan hover:bg-cyan/10">SCAN ENVIRONMENT <ChevronRight size={14} /></Link><Link to="/map" className="flex items-center gap-2 border border-white/10 px-3 py-2 font-mono text-[0.62rem] font-semibold tracking-[0.1em] text-muted hover:border-white/30 hover:text-white">VIEW ROUTE <ArrowRight size={14} /></Link></div></motion.div>}</AnimatePresence></div>
+        </div>
+        <div className="mt-4 grid gap-4 sm:grid-cols-3"><Panel className="p-4"><div className="flex items-center gap-3"><Shield size={18} className="text-safe" /><div><p className="eyebrow">SAFETY-FIRST</p><p className="mt-1 text-xs text-muted">Verified routes are weighted higher.</p></div></div></Panel><Panel className="p-4"><div className="flex items-center gap-3"><BrainCircuit size={18} className="text-cyan" /><div><p className="eyebrow">STRUCTURED AI</p><p className="mt-1 text-xs text-muted">Only typed outputs change state.</p></div></div></Panel><Panel className="p-4"><div className="flex items-center gap-3"><TimerReset size={18} className="text-amber" /><div><p className="eyebrow">DECISION LOG</p><p className="mt-1 text-xs text-muted">Review every consequence in results.</p></div></div></Panel></div>
+      </div>
+    </GameShell>
+  )
+}
